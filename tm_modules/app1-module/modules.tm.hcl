@@ -1,6 +1,6 @@
 generate_hcl "main.tf" {
   content {
-    resource "null_resource" "example" {
+    resource "null_resource" "example2" {
       provisioner "local-exec" {
         command = "echo This command will execute only once during apply"
       }
